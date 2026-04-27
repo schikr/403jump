@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trap-bytes/403jump/utils"
+	"github.com/schikr/403jump/utils"
 )
 
 var Verbs = [9]string{"GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS", "TRACE", "PATCH", "INVENTED"}
