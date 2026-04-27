@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/trap-bytes/403jump/utils"
+	"github.com/schikr/403jump/utils"
 )
 
 func HttpRequestPathFuzzing(client *http.Client, inputURL, cookie, customHeader string) int64 {
