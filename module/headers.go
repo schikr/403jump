@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trap-bytes/403jump/utils"
+	"github.com/schikr/403jump/utils"
 )
 
 var Headers = [12]string{
