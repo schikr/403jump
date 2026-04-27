@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/trap-bytes/403jump/utils"
+	"github.com/schikr/403jump/utils"
 )
 
 var bypassFound int64
