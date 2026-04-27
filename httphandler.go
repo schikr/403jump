@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/trap-bytes/403jump/module"
-	"github.com/trap-bytes/403jump/utils"
+	"github.com/schikr/403jump/module"
+	"github.com/schikr/403jump/utils"
 )
 
 func CreateHTTPClientWProxy(proxy string, timeout int) (*http.Client, error) {
